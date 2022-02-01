@@ -1,4 +1,6 @@
-# Install Frappe Bench and ERPNext version 13 (stable):
+# Frappe Framework and ERPNext Installation and Usage Notes
+
+## Install Frappe Bench and ERPNext version 13 (stable):
 
     bench init --frappe-branch version-13 frappe-bench
     cd ~/frappe-bench
@@ -8,9 +10,9 @@ Check:
 
     bench version
 
-# Usage:
+## Usage:
 
-    bench new-site sitename                     # add new site
-    bench --site sitename install-app erpnext   # install erpnext app at site 
+    bench new-site sitename                         # add new site
+    bench --site sitename install-app erpnext       # install erpnext app at site 
     
     
