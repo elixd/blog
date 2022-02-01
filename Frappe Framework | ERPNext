@@ -7,3 +7,10 @@
 Check:
 
     bench version
+
+# Usage:
+
+    bench new-site sitename                     # add new site
+    bench --site sitename install-app erpnext   # install erpnext app at site 
+    
+    
