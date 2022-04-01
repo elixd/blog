@@ -1,0 +1,20 @@
+# ERPnext notes
+
+## MWS
+it is possible make a tree structure of warehouses which may be repurposed as "address storage" with bins,
+but as on april 2022 there is no functionality to work with storage location barcodes.
+
+There is not mobile or desktop solution to replicate workflow when receiving or issuing items to/from location:
+   1. scan item barcode
+   2. scan storage loaction (bin) barcode
+This is normal routine which is followed in modern warehouse to keep stock balance for each storage location.
+
+ERPNext however has barcode scanning functionality for items. This can be use with smartphone camera. 
+This solution is inferior to professional mobile barcode scanners like Honeywell with Android OS, which are much
+faster at scanning and have physical buttoons for the purpose.
+
+## Items
+Each item has item code and item name. Item code is supposed to be short version item name. Otions are:
+ - item code is gnrat automatically
+ - manualy entry of item code
+ - item code = item name
