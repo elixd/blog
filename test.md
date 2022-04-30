@@ -14,7 +14,7 @@ dfdf
 
 [2022-02-30-github.md][Arbitrary case-insensitive reference text]
 
-[I'm a relative reference to a repository file](2022-02-30-github.md)
+[I'm a relative reference to a repository file](../2022-02-30-github.md)
 
 [You can use numbers for reference-style link definitions][1]
 
