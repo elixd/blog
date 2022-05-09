@@ -26,6 +26,10 @@ Tips from [this article](https://emmanuelbernard.com/blog/2021/03/01/notes-app/)
 - GitDoc to **auto commit and auto push changes** using some VSCode friendly web based editor like GitHub Codespaces or CodeReady Workspaces for the web usage
 - GitJournal for the mobile support
 
+### Notable
+Mac app stores notes as local .md files in a single folder. No subfolders.  Supports tags. Filename is genrate from first line of the note, if first line is changed - filename is changed automtically.
+Design similar to Simplenote, but there are not snippets of notes. Wiki-syple links are supported [[]]. But Links are only clickable in the split view (markdown preview)
+
 ## Links
 https://emmanuelbernard.com/blog/2021/03/01/notes-app/
 
