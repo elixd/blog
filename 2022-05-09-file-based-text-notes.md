@@ -30,6 +30,7 @@ Tips from [this article](https://emmanuelbernard.com/blog/2021/03/01/notes-app/)
 
 ## Links
 https://emmanuelbernard.com/blog/2021/03/01/notes-app/
+
 elixd/foam - my repo clone of foam VS code template
 
 
