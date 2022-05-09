@@ -1,7 +1,9 @@
 # File-based Text Notes Options
 
 Desktop:
-  - Foam VS Code Extention - Syncs to Git 
+  - Foam VS Code Extention - Syncs to Git
+    - updates links if filename changes
+    - generates links compatibile with github, but does it with some kind of footer
  
 | probel: I have not figured out how to easily sync with gitub both ways
 
