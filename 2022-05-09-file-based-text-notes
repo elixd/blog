@@ -1,14 +1,22 @@
 # File-based Text Notes Options
 
-Desktop:
+## Desktop:
+
   - Foam VS Code Extention - Syncs to Git
     - updates links if filename changes
     - generates links compatibile with github, but does it with some kind of footer
  
 | probel: I have not figured out how to easily sync with gitub both ways
 
-Multiplatform:
+## Multiplatform:
+
   - Obsidian - paid sync or iCloud
 
-Mobile:
+## Mobile:
+
  - GitJournal (purchased on iOS) has some wierd style wiki-style links. No auto-save.
+
+
+## Links
+https://emmanuelbernard.com/blog/2021/03/01/notes-app/
+elixd/foam - my repo clone of foam VS code template
