@@ -17,6 +17,7 @@
 ### Mobile:
 
  - GitJournal (purchased on iOS) has some wierd style wiki-style links. No auto-save.
+ - iOS (and Mac) 1Writer
 
 ## Detailed notes
 
@@ -29,6 +30,11 @@ Tips from [this article](https://emmanuelbernard.com/blog/2021/03/01/notes-app/)
 ### Notable
 Mac app stores notes as local .md files in a single folder. No subfolders.  Supports tags. Filename is genrate from first line of the note, if first line is changed - filename is changed automtically.
 Design similar to Simplenote, but there are not snippets of notes. Wiki-syple links are supported [[]]. But Links are only clickable in the split view (markdown preview)
+
+### 1Writer
+- wiki-style links
+- renames links if file is renamed
+- filenames are genrated base on date and time or set manually
 
 ## Links
 https://emmanuelbernard.com/blog/2021/03/01/notes-app/
