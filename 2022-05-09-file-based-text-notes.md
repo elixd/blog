@@ -8,7 +8,7 @@
     - updates links if filename changes
     - generates links compatibile with github, but does it with some kind of footer
  
-| probel: I have not figured out how to easily sync with gitub both ways
+| problem: I have not figured out how to easily sync with gitub both ways
 
 ### Multiplatform:
 
@@ -40,5 +40,13 @@ Design similar to Simplenote, but there are not snippets of notes. Wiki-syple li
 https://emmanuelbernard.com/blog/2021/03/01/notes-app/
 
 elixd/foam - my repo clone of foam VS code template
+
+
+# In Detail 
+
+## VS Code
+#### Connect to github
+  - Foam VS Code Extention - Syncs to Git
+
 
 
