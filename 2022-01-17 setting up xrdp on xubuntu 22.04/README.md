@@ -6,7 +6,6 @@
 
 ### Активировать русскую раскладку при подключении и переродключении по RDP
 Source: https://github.com/neutrinolabs/xrdp/issues/337
-
 Alternative: https://sysadminmosaic.ru/xrdp/xrdp#xrdp_keyboardini
 
 `sudo nano /etc/xrdp/xrdp_keyboard.ini`
@@ -34,7 +33,6 @@ layouts_map=default_layouts_map
 
 ### Избавиться от запроса паролья при каждом запуске браузера
 Source: https://askubuntu.com/questions/1240905/how-do-i-automatically-unlock-login-keyring-when-logging-into-ubuntu-20-04
-
 Alternative: https://wiki.archlinux.org/title/xrdp
 
 
