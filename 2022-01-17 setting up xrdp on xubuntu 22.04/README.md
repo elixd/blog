@@ -5,7 +5,8 @@
 Зайти в настройки панели и добавить переключалку на панель.
 
 ### Активировать русскую раскладку при подключении и переродключении по RDP
-Source: https://github.com/neutrinolabs/xrdp/issues/337 
+Source: https://github.com/neutrinolabs/xrdp/issues/337
+
 Alternative: https://sysadminmosaic.ru/xrdp/xrdp#xrdp_keyboardini
 
 `sudo nano /etc/xrdp/xrdp_keyboard.ini`
