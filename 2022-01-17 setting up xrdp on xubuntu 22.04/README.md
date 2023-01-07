@@ -29,6 +29,12 @@ layouts_map=default_layouts_map
 ```
 
 ### Избавиться от запроса паролья при каждом запуске браузера
+#### Option 1
+`sudo apt-get install seahorse && seahorse`
+
+Source: https://askubuntu.com/questions/1240905/how-do-i-automatically-unlock-login-keyring-when-logging-into-ubuntu-20-04
+
+#### Вариант 2
 `sudo nano /etc/pam.d/xrdp-sesman`
 
 Заменить на:
