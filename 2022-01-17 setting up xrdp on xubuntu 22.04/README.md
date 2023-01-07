@@ -1,4 +1,10 @@
-# Активировать русскую раскладку при подключении и переродключении по RDP
+# Настройка работы XRPD на Ubunsu 22.04 и XFCE
+
+### Add Keyboar Layout Swithcer to Task Panel
+`sudo apt install xfce4-goodies' (этот пакет включает переключалку)
+Зайти в настройки панели и добавить переключалку на панель.
+
+### Активировать русскую раскладку при подключении и переродключении по RDP
 `sudo nano /etc/xrdp/xrdp_keyboard.ini`
 
 ```
@@ -22,7 +28,7 @@ rdp_layouts=default_rdp_layouts
 layouts_map=default_layouts_map
 ```
 
-# Избавиться от запроса паролья при каждом запуске браузера
+### Избавиться от запроса паролья при каждом запуске браузера
 `sudo nano /etc/pam.d/xrdp-sesman`
 
 Заменить на:
@@ -44,3 +50,12 @@ session required        pam_env.so readenv=1
 session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
 @include common-password
 ```
+
+### Software
+`sudo apt install gnome-terminal` потом зайти в "программы по умолчанию" и выбрать его по умолчанию
+
+### Внешний вид
+Icons: Papirus-Light
+Theme (Style): Orchis-Light-Compact
+Fonts: Roboto Regular, Roboto Mono Regular
+
