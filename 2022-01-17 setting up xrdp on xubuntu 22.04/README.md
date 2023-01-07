@@ -70,6 +70,10 @@ Icons: Papirus-Light
 Theme (Style): Orchis-Light-Compact
 Fonts: Roboto Regular, Roboto Mono Regular
 
+### Решений ошибки light locker при входе в системе
+Solution: `sudo mv /etc/xdg/autostart/light-locker.desktop /etc/xdg/autostart/light-locker.desktop.bak`
+More info: https://bugs.launchpad.net/ubuntu/+source/light-locker/+bug/1745259
+
 # Links
 https://sevo44.ru/xrdp-terminalnyj-server-linux/
 https://sysadminmosaic.ru/xrdp/xrdp
