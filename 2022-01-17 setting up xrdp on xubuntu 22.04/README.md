@@ -41,18 +41,23 @@ Alternative: https://wiki.archlinux.org/title/xrdp
 Заменить на:
 ```
 #%PAM-1.0
-auth required pam_env.so readenv=1
-auth required pam_env.so readenv=1 envfile=/etc/default/locale
+# Это вариант конфига решает с проблемы запросом пароля при запуске Chrome
+# Кроме того, это едиснтвенный конфиг который я нашел, при котором не слетает русский язык в интерфейсте
+# В других вариантах по какой-то причине язык интерфейса XFCE переходил на анлийский
+auth requisite pam_nologin.so
+auth sufficient pam_succeed_if.so user ingroup nopasswdlogin
 @include common-auth
-auth    optional        pam_gnome_keyring.so
+auth optional pam_gnome_keyring.so
+auth optional pam_kwallet.so
 @include common-account
 session [success=ok ignore=ignore module_unknown=ignore default=bad] pam_selinux.so close
-session required        pam_limits.so
+session required pam_limits.so
 @include common-session
 session [success=ok ignore=ignore module_unknown=ignore default=bad] pam_selinux.so open
-session optional        pam_gnome_keyring.so auto_start
-session required        pam_env.so readenv=1
-session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
+session optional pam_gnome_keyring.so auto_start
+session optional pam_kwallet.so auto_start
+session required pam_env.so readenv=1
+session required pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
 @include common-password
 ```
 
