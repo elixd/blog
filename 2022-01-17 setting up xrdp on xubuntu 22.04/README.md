@@ -72,4 +72,5 @@ Fonts: Roboto Regular, Roboto Mono Regular
 
 # Links
 https://sevo44.ru/xrdp-terminalnyj-server-linux/
+https://sysadminmosaic.ru/xrdp/xrdp
 
