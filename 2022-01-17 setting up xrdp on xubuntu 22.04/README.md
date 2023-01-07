@@ -58,9 +58,13 @@ session required        pam_env.so readenv=1 user_readenv=1 envfile=/etc/default
 
 ### Software
 `sudo apt install gnome-terminal` потом зайти в "программы по умолчанию" и выбрать его по умолчанию
+`sudo apt-get remove xscreensaver`
 
 ### Внешний вид
 Icons: Papirus-Light
 Theme (Style): Orchis-Light-Compact
 Fonts: Roboto Regular, Roboto Mono Regular
+
+# Links
+https://sevo44.ru/xrdp-terminalnyj-server-linux/
 
