@@ -75,8 +75,8 @@ Solution: `sudo mv /etc/xdg/autostart/light-locker.desktop /etc/xdg/autostart/li
 More info: https://bugs.launchpad.net/ubuntu/+source/light-locker/+bug/1745259
 
 # Links
-https://sevo44.ru/xrdp-terminalnyj-server-linux/
-https://sysadminmosaic.ru/xrdp/xrdp
+- https://sevo44.ru/xrdp-terminalnyj-server-linux/
+- https://sysadminmosaic.ru/xrdp/xrdp
 
 [Youtube: A Modern Linux Graphical TERMINAL SERVER | Complete Guide for Remote Access | Any Device, Many Users
 ](https://www.youtube.com/watch?v=sAllRma_0xc)
