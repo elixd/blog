@@ -75,6 +75,11 @@ Fonts: Roboto Regular, Roboto Mono Regular
 Solution: `sudo mv /etc/xdg/autostart/light-locker.desktop /etc/xdg/autostart/light-locker.desktop.bak`
 More info: https://bugs.launchpad.net/ubuntu/+source/light-locker/+bug/1745259
 
+### Questionable settings
+- disable animations https://askubuntu.com/questions/663440/how-to-disable-animations-to-speed-up-screen-updating-in-virtual-environment
+- disable smooth scrolling in browser https://www.groovypost.com/howto/enable-or-disable-smooth-scrolling-in-google-chrome/
+- disable compositing [https://www.maketecheasier.com/enable-passwordless-ssh-logins-linux/?scr=1](https://www.maketecheasier.com/speed-up-linux-desktop-with-compton/)
+
 # Links
 - https://sevo44.ru/xrdp-terminalnyj-server-linux/
 - https://sysadminmosaic.ru/xrdp/xrdp
