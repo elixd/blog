@@ -32,6 +32,7 @@ layouts_map=default_layouts_map
 
 ### Избавиться от запроса паролья при каждом запуске браузера
 Source: https://askubuntu.com/questions/1240905/how-do-i-automatically-unlock-login-keyring-when-logging-into-ubuntu-20-04
+Alternative: https://wiki.archlinux.org/title/xrdp
 
 
 `sudo nano /etc/pam.d/xrdp-sesman`
