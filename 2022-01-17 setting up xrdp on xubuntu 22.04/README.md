@@ -1,4 +1,4 @@
-# Настройка работы XRPD на Ubunsu 22.04 и XFCE
+# Настройка работы XRPD на Ubuntu 22.04 и XFCE
 
 ### Add Keyboar Layout Swithcer to Task Panel
 `sudo apt install xfce4-goodies' (этот пакет включает переключалку)
