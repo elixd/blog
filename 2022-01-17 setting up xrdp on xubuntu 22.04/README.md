@@ -64,6 +64,7 @@ session required pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
 ### Software
 `sudo apt install gnome-terminal` потом зайти в "программы по умолчанию" и выбрать его по умолчанию
 `sudo apt-get remove xscreensaver`
+- https://github.com/hakandundar34coding/system-monitoring-center/blob/master/README.md
 
 ### Внешний вид
 Icons: Papirus-Light
