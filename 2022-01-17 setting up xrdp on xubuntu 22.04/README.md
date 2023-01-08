@@ -68,7 +68,7 @@ session required pam_env.so readenv=1 user_readenv=1 envfile=/etc/default/locale
 
 ### Внешний вид
 Icons: Papirus-Light
-Theme (Style): Orchis-Light-Compact
+Theme (Style): Orchis-Light-Compact OR Qogir-Light (change both in Appearence and Window Manager)
 Fonts: Roboto Regular, Roboto Mono Regular
 
 ### Решений ошибки light locker при входе в системе
