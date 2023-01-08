@@ -80,6 +80,14 @@ More info: https://bugs.launchpad.net/ubuntu/+source/light-locker/+bug/1745259
 - disable smooth scrolling in browser https://www.groovypost.com/howto/enable-or-disable-smooth-scrolling-in-google-chrome/
 - disable compositing https://www.maketecheasier.com/speed-up-linux-desktop-with-compton/
 
+### Style Window Switcher on the Whiscker Panel
+`nano .config/gtk-3.0/gtk.css`
+Add following:
+```
+wnck-pager { background: #333; color: #ccc }
+wnck-pager:selected { background: #ff9900; color: black }
+```
+
 # Links
 - https://sevo44.ru/xrdp-terminalnyj-server-linux/
 - https://sysadminmosaic.ru/xrdp/xrdp
