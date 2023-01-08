@@ -88,6 +88,19 @@ wnck-pager { background: #333; color: #ccc }
 wnck-pager:selected { background: #ff9900; color: black }
 ```
 
+### Setup tyme Sync
+Source: https://www.server-world.info/en/note?os=Ubuntu_22.04&p=ntp&f=3
+```
+# Edit config:
+sudo nano /etc/systemd/timesyncd.conf
+
+# add to the end : set NTP server for your timezone
+NTP=dlp.srv.world
+
+# Restart:
+systemctl restart systemd-timesyncd
+```
+
 # Links
 - https://sevo44.ru/xrdp-terminalnyj-server-linux/
 - https://sysadminmosaic.ru/xrdp/xrdp
