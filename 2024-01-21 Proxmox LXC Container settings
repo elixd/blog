@@ -1,0 +1,23 @@
+# blog
+
+# To Enable Samba mount:
+lxc.mount.entry: /dev/fuse dev/fuse none bind,create=file 0 0
+
+#lamp server setup (proxmox 0.45 container 104)
+features: keyctl=1,nesting=1 (in order to avoid errors with mariadb and apache2 server)
+Web sites:
+http://192.168.0.190/adminer-4.7.3-mysql.php (PHP admin tool)
+
+http://192.168.0.190/your_domain - messed up Wordpress (barely working) was used to expreminet with wikies.
+http://192.168.0.190/projecta - test Wordpress instance installed
+http://192.168.0.190/projectb - empty
+
+Propjecta web site
+Database: projecta / projecta-password-Lsd91
+Wordpress admin: projecta / uAUVdm88(9u)O#rNQ!
+totum as of 30.01.2022 also installed
+
+
+
+# Totum setup
+features: fuse=1,keyctl=1,nesting=1
